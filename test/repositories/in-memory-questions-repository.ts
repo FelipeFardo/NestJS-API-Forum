@@ -1,4 +1,4 @@
-import { DomainEvents } from '@/infra/events/domain-events'
+import { DomainEvents } from '@/core/events/domain-events'
 import { PaginationParams } from '@/core/repositories/pagination-params'
 import { QuestionAttachmentsRepository } from '@/domain/forum/application/repositories/question-attachments-repository'
 import { QuestionsRepository } from '@/domain/forum/application/repositories/questions-repository'
