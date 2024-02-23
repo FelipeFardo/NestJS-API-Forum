@@ -20,8 +20,8 @@ describe('Create Question', () => {
   it('should be able to create a question', async () => {
     const result = await sut.execute({
       authorId: '1',
-      content: 'Nova pergunta',
-      title: 'Conteúdo da pergunta',
+      title: 'Nova pergunta',
+      content: 'Conteúdo da pergunta',
       attachmentsIds: ['1', '2'],
     })
 
@@ -41,8 +41,8 @@ describe('Create Question', () => {
   it('should persist attachment when creating a new question', async () => {
     const result = await sut.execute({
       authorId: '1',
-      content: 'Nova pergunta',
-      title: 'Conteúdo da pergunta',
+      title: 'Nova pergunta',
+      content: 'Conteúdo da pergunta',
       attachmentsIds: ['1', '2'],
     })
 
