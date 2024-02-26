@@ -16,7 +16,7 @@ This project was developed with the following technologies:
 - PostgreSQL
 - Redis
 - Docker
-- Solid principles
+- SOLID principles
 - DDD (Domain-Driven Design)
 - Clean Architecture
 - Test Automation
