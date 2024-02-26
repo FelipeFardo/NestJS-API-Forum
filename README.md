@@ -22,7 +22,7 @@ This project was developed with the following technologies:
 - Test Automation
 
 
-## 🖲️ Start
+## 🖲️ Getting Started
 ```sh
  - npm install
  - npm run start
